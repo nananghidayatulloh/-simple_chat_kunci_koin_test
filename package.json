@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/nananghidayatulloh/simple_chat_kunci_koin_test/issues"
   },
-  "homepage": "https://github.com/nananghidayatulloh/simple_chat_kunci_koin_test#readme"
+  "homepage": "https://github.com/nananghidayatulloh/simple_chat_kunci_koin_test#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
 }
