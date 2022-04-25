@@ -5,9 +5,34 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Kunci Koin Simple Chat App</title>
+   <style>
+   body{
+	  background-color: lightblue;
+	  font-family: "Ubuntu-Italic", "Lucida Sans", helvetica, sans;
+	}
+
+	/* container */
+	.container {
+	  padding: 5% 5%;
+	}
+	.chat-message {text-align: right; background-color: coral;}
+	.chat-message--user {text-align: left; background-color: blue;}
+</style> 
 </head>
 <body>
-  <h1>Testing</h1>
+  <h1></h1>
+  
+    <form class="chat-form">
+    <label class="chat-label" for="chat-input">
+      Enter a message:
+    </label>
+    <input autocomplete="off" placeholder="Enter a message" type="text" class="chat-input" id="chat-input">
+    <input type="submit" class="chat-submit" value="enter">
+  </form>
+  
+  <div class="isi-chat"></div>
+  
+  <script src="socket.io/socket.io.js"></script>
   <script src="app.js"></script>
 </body>
 </html>
